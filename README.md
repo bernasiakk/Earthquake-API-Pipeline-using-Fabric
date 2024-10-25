@@ -26,7 +26,7 @@ This project leverages the following Microsoft Fabric components:
 
 ## Architecture
 
-<img src="images/architecture.png" alt="drawing" width="600"/>
+<img src="images/architecture.png" alt="drawing" width="750"/>
 
 ### Data Factory Pipeline
 
@@ -76,11 +76,11 @@ Move to this step after you ran the above pipeline at least once.
 
 **Set the default semantic model**
 1. Go to your `earthquake_lakehouse`
-2. In top right, switch to `SQL Analytics Endpoint`
+2. In top right, switch to `SQL Analytics Endpoint` \
    <img src="images/sql_analytics_endpoint.png" alt="drawing" width="300"/>
-3. Go to `Reporting` -> `Manage default semantic model`
+3. Go to `Reporting` -> `Manage default semantic model` \
    <img src="images/manage_default_semantic.png" alt="drawing" width="400"/>
-4. Choose the relevant table and click `confirm`
+4. Choose the relevant table and click `confirm` \
    <img src="images/choose_table.png" alt="drawing" width="300"/>
 
 You can now modify your default model by:
